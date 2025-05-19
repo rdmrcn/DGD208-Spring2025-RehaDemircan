@@ -1,0 +1,14 @@
+C:\Users\pc\source\repos\DGD208-Spring2025-RehaDemircan-PetGame\DGD208-Spring2025-RehaDemircan-PetGame\bin\Debug\net8.0\DGD208-Spring2025-RehaDemircan.exe
+C:\Users\pc\source\repos\DGD208-Spring2025-RehaDemircan-PetGame\DGD208-Spring2025-RehaDemircan-PetGame\bin\Debug\net8.0\DGD208-Spring2025-RehaDemircan.deps.json
+C:\Users\pc\source\repos\DGD208-Spring2025-RehaDemircan-PetGame\DGD208-Spring2025-RehaDemircan-PetGame\bin\Debug\net8.0\DGD208-Spring2025-RehaDemircan.runtimeconfig.json
+C:\Users\pc\source\repos\DGD208-Spring2025-RehaDemircan-PetGame\DGD208-Spring2025-RehaDemircan-PetGame\bin\Debug\net8.0\DGD208-Spring2025-RehaDemircan.dll
+C:\Users\pc\source\repos\DGD208-Spring2025-RehaDemircan-PetGame\DGD208-Spring2025-RehaDemircan-PetGame\bin\Debug\net8.0\DGD208-Spring2025-RehaDemircan.pdb
+C:\Users\pc\source\repos\DGD208-Spring2025-RehaDemircan-PetGame\DGD208-Spring2025-RehaDemircan-PetGame\obj\Debug\net8.0\DGD208-Spring2025-RehaDemircan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\DGD208-Spring2025-RehaDemircan-PetGame\DGD208-Spring2025-RehaDemircan-PetGame\obj\Debug\net8.0\DGD208-Spring2025-RehaDemircan.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\DGD208-Spring2025-RehaDemircan-PetGame\DGD208-Spring2025-RehaDemircan-PetGame\obj\Debug\net8.0\DGD208-Spring2025-RehaDemircan.AssemblyInfo.cs
+C:\Users\pc\source\repos\DGD208-Spring2025-RehaDemircan-PetGame\DGD208-Spring2025-RehaDemircan-PetGame\obj\Debug\net8.0\DGD208-Spring2025-RehaDemircan.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\DGD208-Spring2025-RehaDemircan-PetGame\DGD208-Spring2025-RehaDemircan-PetGame\obj\Debug\net8.0\DGD208-Spring2025-RehaDemircan.dll
+C:\Users\pc\source\repos\DGD208-Spring2025-RehaDemircan-PetGame\DGD208-Spring2025-RehaDemircan-PetGame\obj\Debug\net8.0\refint\DGD208-Spring2025-RehaDemircan.dll
+C:\Users\pc\source\repos\DGD208-Spring2025-RehaDemircan-PetGame\DGD208-Spring2025-RehaDemircan-PetGame\obj\Debug\net8.0\DGD208-Spring2025-RehaDemircan.pdb
+C:\Users\pc\source\repos\DGD208-Spring2025-RehaDemircan-PetGame\DGD208-Spring2025-RehaDemircan-PetGame\obj\Debug\net8.0\DGD208-Spring2025-RehaDemircan.genruntimeconfig.cache
+C:\Users\pc\source\repos\DGD208-Spring2025-RehaDemircan-PetGame\DGD208-Spring2025-RehaDemircan-PetGame\obj\Debug\net8.0\ref\DGD208-Spring2025-RehaDemircan.dll
