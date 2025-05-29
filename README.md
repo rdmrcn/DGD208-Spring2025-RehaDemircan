@@ -20,6 +20,8 @@ I made major updates and changes on this Project since the dates for upgrade pur
 - [x] Basic pet interaction (feed, play, clean)
 - [x] UI with buttons and progress bars
 - [x] Save/load pet state (in progress)
+- [x] Credits option of author
+      
 
 ---
 ## 📁 Project Directory Structure
