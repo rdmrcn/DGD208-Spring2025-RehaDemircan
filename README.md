@@ -28,7 +28,7 @@ DGD208-RehaDemircan-Spring/
 - **Language:** C#  
 - **Platform:** Windows Forms (.NET Framework)  
 - **IDE:** Visual Studio (2022 or later)  
-- **Status:** In Progress  
+- **Status:** Finished 
 - **Author:** Reha Demircan  
 - **Course:** DGD208
 ---
