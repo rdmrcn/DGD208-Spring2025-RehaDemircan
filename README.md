@@ -7,6 +7,21 @@ This project is part of the final assignment for DGD208. All feedback is welcome
 I have been working on this Project Since May 12 to May 30 
 I made major updates and changes on this Project since the dates for upgrade purposes. 
 
+## 📌 Project Details
+- **Language:** C#  
+- **Platform:** Windows Forms (.NET Framework)  
+- **IDE:** Visual Studio (2022 or later)  
+- **Status:** Finished 
+- **Author:** Reha Demircan  
+- **Course:** DGD208
+---
+## 🎮 Features (Planned or Completed)
+
+- [x] Basic pet interaction (feed, play, clean)
+- [x] UI with buttons and progress bars
+- [ ] Save/load pet state (in progress)
+- [ ] Visual feedback or animations
+---
 ## 📁 Project Directory Structure
 
 ```
@@ -27,23 +42,6 @@ DGD208-RehaDemircan-Spring/
 ├── PetManager.cs
 ├── Program.cs
 ```
-
-
-## 📌 Project Details
-- **Language:** C#  
-- **Platform:** Windows Forms (.NET Framework)  
-- **IDE:** Visual Studio (2022 or later)  
-- **Status:** Finished 
-- **Author:** Reha Demircan  
-- **Course:** DGD208
----
-## 🎮 Features (Planned or Completed)
-
-- [x] Basic pet interaction (feed, play, clean)
-- [x] UI with buttons and progress bars
-- [ ] Save/load pet state (in progress)
-- [ ] Visual feedback or animations
----
 ## 🛠️ How to Run
 
 1. Clone this repo:
