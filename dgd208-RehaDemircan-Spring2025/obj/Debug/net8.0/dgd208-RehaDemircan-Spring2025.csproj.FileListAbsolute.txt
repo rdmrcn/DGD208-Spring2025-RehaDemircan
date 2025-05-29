@@ -1,0 +1,14 @@
+C:\Users\pc\source\repos\dgd208-RehaDemircan-Spring2025\dgd208-RehaDemircan-Spring2025\bin\Debug\net8.0\dgd208-RehaDemircan-Spring2025.exe
+C:\Users\pc\source\repos\dgd208-RehaDemircan-Spring2025\dgd208-RehaDemircan-Spring2025\bin\Debug\net8.0\dgd208-RehaDemircan-Spring2025.deps.json
+C:\Users\pc\source\repos\dgd208-RehaDemircan-Spring2025\dgd208-RehaDemircan-Spring2025\bin\Debug\net8.0\dgd208-RehaDemircan-Spring2025.runtimeconfig.json
+C:\Users\pc\source\repos\dgd208-RehaDemircan-Spring2025\dgd208-RehaDemircan-Spring2025\bin\Debug\net8.0\dgd208-RehaDemircan-Spring2025.dll
+C:\Users\pc\source\repos\dgd208-RehaDemircan-Spring2025\dgd208-RehaDemircan-Spring2025\bin\Debug\net8.0\dgd208-RehaDemircan-Spring2025.pdb
+C:\Users\pc\source\repos\dgd208-RehaDemircan-Spring2025\dgd208-RehaDemircan-Spring2025\obj\Debug\net8.0\dgd208-RehaDemircan-Spring2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\dgd208-RehaDemircan-Spring2025\dgd208-RehaDemircan-Spring2025\obj\Debug\net8.0\dgd208-RehaDemircan-Spring2025.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\dgd208-RehaDemircan-Spring2025\dgd208-RehaDemircan-Spring2025\obj\Debug\net8.0\dgd208-RehaDemircan-Spring2025.AssemblyInfo.cs
+C:\Users\pc\source\repos\dgd208-RehaDemircan-Spring2025\dgd208-RehaDemircan-Spring2025\obj\Debug\net8.0\dgd208-RehaDemircan-Spring2025.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\dgd208-RehaDemircan-Spring2025\dgd208-RehaDemircan-Spring2025\obj\Debug\net8.0\dgd208-RehaDemircan-Spring2025.dll
+C:\Users\pc\source\repos\dgd208-RehaDemircan-Spring2025\dgd208-RehaDemircan-Spring2025\obj\Debug\net8.0\refint\dgd208-RehaDemircan-Spring2025.dll
+C:\Users\pc\source\repos\dgd208-RehaDemircan-Spring2025\dgd208-RehaDemircan-Spring2025\obj\Debug\net8.0\dgd208-RehaDemircan-Spring2025.pdb
+C:\Users\pc\source\repos\dgd208-RehaDemircan-Spring2025\dgd208-RehaDemircan-Spring2025\obj\Debug\net8.0\dgd208-RehaDemircan-Spring2025.genruntimeconfig.cache
+C:\Users\pc\source\repos\dgd208-RehaDemircan-Spring2025\dgd208-RehaDemircan-Spring2025\obj\Debug\net8.0\ref\dgd208-RehaDemircan-Spring2025.dll
