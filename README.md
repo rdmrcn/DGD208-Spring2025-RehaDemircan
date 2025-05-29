@@ -7,22 +7,27 @@ This project is part of the final assignment for DGD208. All feedback is welcome
 I have been working on this Project Since May 12 to May 30 
 I made major updates and changes on this Project since the dates for upgrade purposes. 
 
+## 📁 Project Directory Structure
+
+```
 DGD208-RehaDemircan-Spring/
 │
 ├── Enums/
-│   ├── ItemType.cs         # Enum for different item types (e.g., food, toy, etc.)
-│   ├── PetBreed.cs         # Enum listing all pet breeds available
-│   ├── PetStat.cs          # Enum for stats like hunger, happiness, etc.
-│   ├── PetType.cs          # Enum for categories or species of pets
+│   ├── ItemType.cs
+│   ├── PetBreed.cs
+│   ├── PetStat.cs
+│   ├── PetType.cs
 │
 ├── Utils/
-│   └── StatUpdater.cs      # Utility class for updating pet statistics
+│   └── StatUpdater.cs
 │
-├── Game.cs                 # Core game logic and loop
-├── Menu.cs                 # UI menu system for player navigation
-├── Pet.cs                  # Main class representing a pet object
-├── PetManager.cs           # Manages all pets: creation, tracking, updating
-├── Program.cs              # Entry point of the application
+├── Game.cs
+├── Menu.cs
+├── Pet.cs
+├── PetManager.cs
+├── Program.cs
+```
+
 
 ## 📌 Project Details
 - **Language:** C#  
