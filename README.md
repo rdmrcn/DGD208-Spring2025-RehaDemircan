@@ -1,8 +1,20 @@
 # DGD208-Spring2025-RehaDemircan
-Github repo for DGD208-Spring2025
 # 🐾 DGD208 Pet Game – Final Project
+This is an interactive **Pet Game** developed using **C#** The game allows the player to interact with a virtual pet, manage its needs, and experience a basic simulation mechanic giving retro game vibes for nostalgia.
 
-This is an interactive **Pet Game** developed using **C#** and **Windows Forms** in **Visual Studio**. The game allows the player to interact with a virtual pet, manage its needs, and experience a basic simulation mechanic.
+📣 Notes
+This project is part of the final assignment for DGD208. All feedback is welcome.
+I have been working on this Project Since May 12 to May 30 
+I made major updates and changes on this Project since the dates for upgrade purposes. 
+
+/DGD208-Spring2025-RehaDemircan/
+├── Form1.cs
+├── Program.cs
+├── Pet.cs
+├── PetStatus.cs
+├── Resources/
+├── DGD208-Spring2025-RehaDemircan.sln
+└── README.md
 ## 📌 Project Details
 - **Language:** C#  
 - **Platform:** Windows Forms (.NET Framework)  
@@ -23,15 +35,3 @@ This is an interactive **Pet Game** developed using **C#** and **Windows Forms**
 1. Clone this repo:
    ```bash
    git clone https://github.com/rdmrcn/DGD208-Spring2025-RehaDemircan.git
-📣 Notes
-This project is part of the final assignment for DGD208. All feedback is welcome.
-More features and polish will be added before the final submission.
-
-/DGD208-Spring2025-RehaDemircan/
-├── Form1.cs
-├── Program.cs
-├── Pet.cs
-├── PetStatus.cs
-├── Resources/
-├── DGD208-Spring2025-RehaDemircan.sln
-└── README.md
