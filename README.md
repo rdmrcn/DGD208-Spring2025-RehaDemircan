@@ -31,9 +31,7 @@ DGD208-RehaDemircan-Spring/
 │
 ├── Enums/
 │   ├── ItemType.cs
-│   ├── PetBreed.cs
 │   ├── PetStat.cs
-│   ├── PetType.cs
 │
 ├── Utils/
 │   └── StatUpdater.cs
@@ -41,7 +39,6 @@ DGD208-RehaDemircan-Spring/
 ├── Game.cs
 ├── Menu.cs
 ├── Pet.cs
-├── PetManager.cs
 ├── Program.cs
 ```
 ## 🛠️ How to Run
