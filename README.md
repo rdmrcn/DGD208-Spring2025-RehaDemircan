@@ -29,14 +29,15 @@ I made major updates and changes on this Project since the dates for upgrade pur
 DGD208-RehaDemircan-Spring/
 │
 ├── Enums/
-│   └── PetStat.cs        ✅ 
+│   ├── PetStat.cs
+│   └── ItemType.cs
 │
 ├── Core/
-│   ├── Game.cs           ✅
-│   ├── Pet.cs            ✅
-│   ├── Item.cs           ✅ 
+│   ├── Game.cs
+│   └── Pet.cs
 │
-├── Program.cs            ✅
+├── Program.cs
+└── Menu.cs           
 
 ```
 ## 🛠️ How to Run
