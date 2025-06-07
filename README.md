@@ -37,9 +37,7 @@ DGD208-RehaDemircan-Spring/
 │   ├── Game.cs
 │   └── Pet.cs
 │
-├── Program.cs
-└── Menu.cs           
-
+├── Program.cs    
 ```
 ## 🛠️ How to Run
 
