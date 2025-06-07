@@ -17,11 +17,11 @@ I made major updates and changes on this Project since the dates for upgrade pur
 ---
 ## 🎮 Features (Planned or Completed)
 - [x] Select Pet type and Breed
-- [x] Basic pet interaction (feed, play, Sleep)
-- [x] UI with buttons and progress bars
+- [x] Take Care of Your Pet Needs (feed, play, Sleep)
+- [x] View Your Pets İnstantly 
 - [x] Credits option of author
-      
 
+      
 ---
 ## 📁 Project Directory Structure
 
