@@ -18,6 +18,7 @@ I made major updates and changes on this Project since the dates for upgrade pur
 ## 🎮 Features (Planned or Completed)
 - [x] Select Pet type and Breed
 - [x] Take Care of Your Pet Needs (feed, play, Sleep)
+- [x] Each Pet Stat Decreases differently 
 - [x] View Your Pets İnstantly 
 - [x] Credits option of author
 
