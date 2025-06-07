@@ -1,4 +1,4 @@
-﻿using dgd208_RehaDemircan_Spring2025.Enums;
+using dgd208_RehaDemircan_Spring2025;
 using dgd208_RehaDemircan_Spring2025;
 using System;
 using System.Collections.Generic;
@@ -14,7 +14,6 @@ namespace DG208_Spring2025_RehaDemircan
 
         public Game()
         {
-            // Create some sample items
             items.Add(new Item("Dog Food", ItemType.Food, 20, 0, 0, 2000));
             items.Add(new Item("Catnip Toy", ItemType.Toy, 0, 15, 0, 1500));
             items.Add(new Item("Bird Bed", ItemType.Bed, 0, 0, 25, 3000));
@@ -72,19 +71,48 @@ namespace DG208_Spring2025_RehaDemircan
                 Enum.IsDefined(typeof(PetType), petChoice - 1))
             {
                 PetType chosenType = (PetType)(petChoice - 1);
+
+                string[] breeds = GetBreeds(chosenType);
+                Console.WriteLine("Choose a breed:");
+                for (int i = 0; i < breeds.Length; i++)
+                {
+                    Console.WriteLine($"{i + 1}. {breeds[i]}");
+                }
+
+                Console.Write("Your choice: ");
+                if (!int.TryParse(Console.ReadLine(), out int breedIndex) || breedIndex < 1 || breedIndex > breeds.Length)
+                {
+                    Console.WriteLine("Invalid breed.");
+                    return;
+                }
+
+                string breed = breeds[breedIndex - 1];
+
                 Console.Write("Enter pet's name: ");
                 string name = Console.ReadLine();
 
-                var pet = new Pet(chosenType, name);
+                var pet = new Pet(chosenType, name, breed);
                 pet.PetDied += OnPetDied;
                 pets.Add(pet);
 
-                Console.WriteLine($"You adopted {name} the {chosenType}!");
+                Console.WriteLine($"You adopted {name} the {breed} ({chosenType})!");
             }
             else
             {
                 Console.WriteLine("Invalid pet type.");
             }
+        }
+
+        private string[] GetBreeds(PetType type)
+        {
+            return type switch
+            {
+                PetType.Dog => new[] { "Labrador", "Bulldog", "Poodle" },
+                PetType.Cat => new[] { "Siamese", "Persian", "Maine Coon" },
+                PetType.Bird => new[] { "Parrot", "Canary", "Finch" },
+                PetType.Lizard => new[] { "Gecko", "Iguana", "Chameleon" },
+                _ => new[] { "Unknown" },
+            };
         }
 
         private void ShowPets()
@@ -123,7 +151,7 @@ namespace DG208_Spring2025_RehaDemircan
 
             Console.WriteLine("Select an item:");
             for (int i = 0; i < items.Count; i++)
-                Console.WriteLine($"{i + 1}. {items[i].Name} (Hunger +{items[i].HungerEffect}, Fun +{items[i].FunEffect}, Sleep +{items[i].SleepEffect})");
+                Console.WriteLine($"{i + 1}. {items[i].Name} (Health +{items[i].HealthEffect}, Fun +{items[i].FunEffect}, Sleep +{items[i].SleepEffect})");
 
             if (!int.TryParse(Console.ReadLine(), out int itemIndex) || itemIndex < 1 || itemIndex > items.Count)
             {
