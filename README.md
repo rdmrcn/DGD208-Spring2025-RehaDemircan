@@ -16,10 +16,9 @@ I made major updates and changes on this Project since the dates for upgrade pur
 - **Course:** DGD208
 ---
 ## 🎮 Features (Planned or Completed)
-
-- [x] Basic pet interaction (feed, play, clean)
+- [x] Select Pet type and Breed
+- [x] Basic pet interaction (feed, play, Sleep)
 - [x] UI with buttons and progress bars
-- [x] Save/load pet state (in progress)
 - [x] Credits option of author
       
 
@@ -30,16 +29,15 @@ I made major updates and changes on this Project since the dates for upgrade pur
 DGD208-RehaDemircan-Spring/
 │
 ├── Enums/
-│   ├── ItemType.cs
-│   ├── PetStat.cs
+│   └── PetStat.cs        ✅ 
 │
-├── Utils/
-│   └── StatUpdater.cs
+├── Core/
+│   ├── Game.cs           ✅
+│   ├── Pet.cs            ✅
+│   ├── Item.cs           ✅ 
 │
-├── Game.cs
-├── Menu.cs
-├── Pet.cs
-├── Program.cs
+├── Program.cs            ✅
+
 ```
 ## 🛠️ How to Run
 
