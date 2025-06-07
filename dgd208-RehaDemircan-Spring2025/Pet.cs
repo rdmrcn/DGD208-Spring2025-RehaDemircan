@@ -1,16 +1,12 @@
-﻿using dgd208_RehaDemircan_Spring2025.Enums;
-using System;
-using System.Threading;
-using System.Threading.Tasks;
-
 namespace DG208_Spring2025_RehaDemircan
 {
     public class Pet
     {
         public string Name { get; }
         public PetType Type { get; }
+        public string Breed { get; }
 
-        public int Hunger { get; private set; } = 50;
+        public int Health { get; private set; } = 50;
         public int Sleep { get; private set; } = 50;
         public int Fun { get; private set; } = 50;
 
@@ -18,13 +14,13 @@ namespace DG208_Spring2025_RehaDemircan
 
         private CancellationTokenSource decayTokenSource;
 
-        // Event fired on pet death
         public event Action<Pet> PetDied;
 
-        public Pet(PetType type, string name)
+        public Pet(PetType type, string name, string breed)
         {
             Type = type;
             Name = name;
+            Breed = breed;
             decayTokenSource = new CancellationTokenSource();
             _ = StartDecayAsync(decayTokenSource.Token);
         }
@@ -33,11 +29,10 @@ namespace DG208_Spring2025_RehaDemircan
         {
             while (!token.IsCancellationRequested && IsAlive)
             {
-                await Task.Delay(3000, token); // decrease every 3 seconds
+                await Task.Delay(3000, token);
+                ChangeStats(-2, -1, -4); // Health, Fun, Sleep decay
 
-                ChangeStats(-1, -1, -1); // stats decrease
-
-                if (Hunger <= 0 || Sleep <= 0 || Fun <= 0)
+                if (Health <= 0 || Sleep <= 0 || Fun <= 0)
                 {
                     IsAlive = false;
                     Console.WriteLine($"\n💀 {Name} has died due to poor care!");
@@ -51,18 +46,18 @@ namespace DG208_Spring2025_RehaDemircan
             decayTokenSource.Cancel();
         }
 
-        public void ChangeStats(int hungerChange, int funChange, int sleepChange)
+        public void ChangeStats(int healthChange, int funChange, int sleepChange)
         {
             if (!IsAlive) return;
 
-            Hunger = Math.Clamp(Hunger + hungerChange, 0, 100);
+            Health = Math.Clamp(Health + healthChange, 0, 100);
             Fun = Math.Clamp(Fun + funChange, 0, 100);
             Sleep = Math.Clamp(Sleep + sleepChange, 0, 100);
         }
 
         public void ShowStats()
         {
-            Console.WriteLine($"[{Type}] {Name} - Hunger: {Hunger}, Fun: {Fun}, Sleep: {Sleep}");
+            Console.WriteLine($"[{Type}] {Name} ({Breed}) - Health: {Health}, Fun: {Fun}, Sleep: {Sleep}");
         }
     }
 }
