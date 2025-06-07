@@ -1,10 +1,11 @@
-﻿namespace DG208_Spring2025_RehaDemircan
+namespace DG208_Spring2025_RehaDemircan
 {
     public enum PetType
     {
         Dog,
         Cat,
-        Bird
+        Bird,
+        Lizard
     }
 
     public enum ItemType
