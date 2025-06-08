@@ -15,7 +15,7 @@ I made major updates and changes on this Project since the dates for upgrade pur
 - **Author:** Reha Demircan  
 - **Course:** DGD208
 ---
-## Features (Planned or Completed)
+## Features (Completed)
 - [x] Select Pet type and Breed
 - [x] Player Can Save the Pets
 - [x] Take Care of Your Pet Needs (feed, play, Sleep)
