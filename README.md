@@ -17,12 +17,19 @@ I made major updates and changes on this Project since the dates for upgrade pur
 ---
 ## 🎮 Features (Planned or Completed)
 - [x] Select Pet type and Breed
+- [x] Player Can Save the Pets
 - [x] Take Care of Your Pet Needs (feed, play, Sleep)
 - [x] Each Pet Stat Decreases differently 
-- [x] View Your Pets İnstantly 
-- [x] Credits option of author
+- [x] View Your Pets Instantly 
+
 ---
 ## Technical information
+- [x] Menu system works correctly
+- [x] Each Pet Stat Decreases differently 
+- [x] Basic game loop functions
+- [x] All required files are in separate .cs files
+- [x] Credits option of author
+
       
 ---
 ## 📁 Project Directory Structure
