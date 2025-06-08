@@ -10,7 +10,7 @@ I made major updates and changes on this Project since the dates for upgrade pur
 ## Project Details
 - **Language:** C#  
 - **Platform:** Console Application (.NET Framework)
-- **IDE:** Visual Studio (2022 or later)  
+- **IDE:** Visual Studio (2022)  
 - **Status:** Finished 
 - **Author:** Reha Demircan  
 - **Course:** DGD208
