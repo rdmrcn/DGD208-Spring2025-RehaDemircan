@@ -21,7 +21,8 @@ I made major updates and changes on this Project since the dates for upgrade pur
 - [x] Each Pet Stat Decreases differently 
 - [x] View Your Pets İnstantly 
 - [x] Credits option of author
-
+---
+## Technical information
       
 ---
 ## 📁 Project Directory Structure
